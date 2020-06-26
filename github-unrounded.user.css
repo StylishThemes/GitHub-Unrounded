@@ -1,10 +1,11 @@
 /* ==UserStyle==
-@name         GitHub Unrounded
-@namespace    StylishThemes
-@version      1.0.3
-@description  Remove obnoxious/destructive border-radii on GitHub
-@homepageURL  https://github.com/StylishThemes/GitHub-Unrounded
-@license      BSD-2-Clause
+@name        GitHub Unrounded
+@namespace   StylishThemes
+@version     1.0.4
+@description Remove obnoxious/destructive border-radii on GitHub
+@homepageURL https://github.com/StylishThemes/GitHub-Unrounded
+@updateURL   https://raw.githubusercontent.com/StylishThemes/GitHub-Unrounded/master/github-unrounded.user.css
+@license     BSD-2-Clause
 ==/UserStyle== */
 @-moz-document domain("github.com"), domain("gist.github.com") {
   /* org avatars */
