@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         GitHub Unrounded
 @namespace    StylishThemes
-@version      1.0.2
+@version      1.0.3
 @description  Remove obnoxious/destructive border-radii on GitHub
 @homepageURL  https://github.com/StylishThemes/GitHub-Unrounded
 @license      BSD-2-Clause
@@ -19,7 +19,8 @@
 
   /* other small things */
   .IssueLabel, .label, .Label, .Counter, .counter,
-  .delete-topic-button, .topic-tag, .topic-tag-action {
+  .delete-topic-button, .topic-tag, .topic-tag-action,
+  .avatar-user[width="20"] {
     border-radius: 4px !important;
   }
 }
