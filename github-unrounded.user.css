@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Unrounded
 @namespace   StylishThemes
-@version     1.0.5
+@version     1.0.6
 @description Remove obnoxious/destructive border-radii on GitHub
 @homepageURL https://github.com/StylishThemes/GitHub-Unrounded
 @updateURL   https://raw.githubusercontent.com/StylishThemes/GitHub-Unrounded/master/github-unrounded.user.css
@@ -22,8 +22,20 @@
   .avatar-user[width="20"] {
     border-radius: 4px !important;
   }
+  /* buttons, need to replicate overruling styles as well */
   .btn {
     border-radius: 4px;
+  }
+  .BtnGroup-item {
+    border-radius: 0;
+  }
+  .BtnGroup-item:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .BtnGroup-item:last {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
   }
   .social-count {
     border-top-right-radius: 4px;
