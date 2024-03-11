@@ -13,7 +13,7 @@
     border-radius: 0 !important;
   }
   /* user avatars */
-  .avatar-user, .state, .State {
+  .avatar-user, .state, .State, [class^="Avatar"] {
     border-radius: 6px !important;
   }
   /* other small things */
