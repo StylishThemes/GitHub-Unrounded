@@ -17,7 +17,7 @@
     border-radius: 6px !important;
   }
   /* other small things */
-  .IssueLabel, .label, .Label, .Counter, .counter,
+  [class^="TokenBase__StyledTokenBase"], .label, .Label, .Counter, .counter,
   .delete-topic-button, .topic-tag, .topic-tag-action,
   .avatar-user[width="20"] {
     border-radius: 4px !important;
